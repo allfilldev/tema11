@@ -23,6 +23,7 @@ pnpm build    # cek build production
 ## Ubah konten
 - `src/content/site.ts`: kontak, momen, kategori, rentang harga, opsi bespoke (kotak, ukuran, isi), sentuhan akhir, testimoni, FAQ
 - `src/content/products.ts`: daftar produk dan harga per pilihan kotak
+- Logo All Fill Dev: satu warna, ganti warnanya lewat token `--color-logo` (dan `--color-logo-light` untuk latar gelap) di `src/app/globals.css`
 - Warna dan font: `src/app/globals.css` (blok `@theme`). Efek kaca: utility `glass`
 
 Tas belanja disimpan di localStorage browser.
